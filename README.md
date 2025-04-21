@@ -1,97 +1,98 @@
 ### I do not own anyof resources and images, this is for educational use
 
-- **[[Day 1]]**: Introduction to Cybersecurity
+
+- **[Day 1](<Day1/Day1.md>)**: Introduction to Cybersecurity
   - What is cybersecurity?
   - Cyber threats & attack types (Malware, Phishing, Ransomware, etc.)
   - CIA Triad: Confidentiality, Integrity, Availability
-- **[[Day 2]]**: Cybersecurity Terminologies & Career Paths
+- **[Day 2](<Day2/Day2.md>)**: Cybersecurity Terminologies & Career Paths
   - White Hat, Black Hat, Grey Hat Hackers
   - Cybersecurity domains: Network Security, Ethical Hacking, Forensics, etc.
   - Cybersecurity job roles & certifications (CEH, Security+, CISSP, etc.)
-- **Day 3**: Networking Fundamentals
+- **[Day 3](<Day3/Day3.md>)**: Networking Fundamentals
   - OSI & TCP/IP models
   - IP addresses, MAC addresses, subnetting
   - Ports & Protocols (HTTP, HTTPS, FTP, SSH, DNS, etc.)
-- **Day 4**: Understanding Firewalls & Network Security
+- **[Day 4](<Day4/Day4.md>)**: Understanding Firewalls & Network Security
   - Types of Firewalls (Hardware/Software)
   - IDS vs. IPS (Intrusion Detection & Prevention Systems)
   - Hands-on: Configuring Windows & Linux Firewalls
-- **Day 5**: Hands-on Lab: Wireshark for Network Traffic Analysis
+- **[Day 5](<Day5/Day5.md>)**: Hands-on Lab: Wireshark for Network Traffic Analysis
   - Capturing & analyzing network packets
   - Identifying suspicious network activities
-- **Day 6**: Cyber Threats & Social Engineering
+- **[Day 6](<Day6/Day6.md>)**: Cyber Threats & Social Engineering
   - Phishing, Spear Phishing, Smishing, and Vishing
   - Password attacks & brute force attacks
   - Hands-on: Creating strong passwords & password managers
-- **Day 7**: Cybersecurity Laws & Ethics
+- **[Day 7](<Day7/Day7.md>)**: Cybersecurity Laws & Ethics
   - Cybersecurity regulations (GDPR, ISO 27001, PCI-DSS, IT Act 2000)
   - Ethical hacking guidelines & responsible disclosure
-- **Day 8**: Operating System Security (Windows & Linux)
+- **[Day 8](<Day8/Day8.md>)**: Operating System Security (Windows & Linux)
   - User privileges & access controls
   - Security features in Windows & Linux (BitLocker, SELinux, AppArmor)
-- **Day 9**: Introduction to Ethical Hacking & Pentesting
+- **[Day 9](<Day9/Day9.md>)**: Introduction to Ethical Hacking & Pentesting
   - What is Ethical Hacking?
   - Penetration Testing Lifecycle (Recon, Scanning, Exploitation)
-- **Day 10**: Footprinting & Reconnaissance Techniques
+- **[Day 10](<Day10/Day10.md>)**: Footprinting & Reconnaissance Techniques
   - Passive & Active Footprinting
   - Hands-on: Using OSINT tools (Google Dorking, Shodan, Maltego)
-- **Day 11**: Scanning & Enumeration Techniques
+- **[Day 11](<Day11/Day11.md>)**: Scanning & Enumeration Techniques
   - Network scanning basics
   - Hands-on: Using Nmap & Netcat for scanning
-- **Day 12**: Vulnerability Assessment
+- **[Day 12](<Day12/Day12.md>)**: Vulnerability Assessment
   - Common Vulnerabilities & Exploits (CVE, CVSS)
   - Hands-on: Using Nessus for vulnerability scanning
-- **Day 13**: Web Application Security Basics
+- **[Day 13](<Day13/Day13.md>)**: Web Application Security Basics
   - OWASP Top 10 Vulnerabilities (SQL Injection, XSS, CSRF)
   - Hands-on: Testing a demo website for vulnerabilities
-- **Day 14**: Hands-on Lab: Burp Suite for Web Security
+- **[Day 14](<Day14/Day14.md>)**: Hands-on Lab: Burp Suite for Web Security
   - Intercepting & modifying web requests
   - Identifying security loopholes in web applications
-- **Day 15**: Malware Analysis & Reverse Engineering Basics
+- **[Day 15](<Day15/Day15.md>)**: Malware Analysis & Reverse Engineering Basics
   - Types of malware (Viruses, Trojans, Worms, Rootkits)
   - Hands-on: Using VirusTotal & sandboxes for malware analysis
-- **Day 16**: Incident Response & Digital Forensics
+- **[Day 16](<Day16/Day16.md>)**: Incident Response & Digital Forensics
   - Cyberattack response process
   - Basics of forensic investigations
-- **Day 17**: Cryptography & Encryption Techniques
+- **[Day 17](<Day17/Day17.md>)**: Cryptography & Encryption Techniques
   - Symmetric vs. Asymmetric Encryption
   - Hands-on: Encrypting and decrypting files with OpenSSL
-- **Day 18**: Hashing & Steganography
+- **[Day 18](<Day18/Day18.md>)**: Hashing & Steganography
   - MD5, SHA-256, and their security implications
   - Hands-on: Hiding messages inside images & files
-- **Day 19**: Wireless Security & Wi-Fi Hacking Basics
+- **[Day 19](<Day19/Day19.md>)**: Wireless Security & Wi-Fi Hacking Basics
   - Understanding Wi-Fi security protocols (WEP, WPA, WPA2)
   - Hands-on: Testing Wi-Fi security with Aircrack-ng
-- **Day 20**: Sniffing & Spoofing Attacks
+- **[Day 20](<Day20/Day20.md>)**: Sniffing & Spoofing Attacks
   - ARP Spoofing & MITM (Man-In-The-Middle) attacks
   - Hands-on: Using Ettercap for ARP spoofing
-- **Day 21**: Denial-of-Service (DoS) & DDoS Attacks
+- **[Day 21](<Day21/Day21.md>)**: Denial-of-Service (DoS) & DDoS Attacks
   - Types of DoS attacks (SYN Flood, UDP Flood, HTTP Flood)
   - Hands-on: Simulating & mitigating DoS attacks
-- **Day 22**: Security Policies & Compliance
+- **[Day 22](<Day22/Day22.md>)**: Security Policies & Compliance
   - Organizational security policies & best practices
   - Importance of security audits & risk management
-- **Day 23**: Cloud Security & Virtualization
+- **[Day 23](<Day23/Day23.md>)**: Cloud Security & Virtualization
   - Cloud computing risks & best practices
   - Hands-on: Securing AWS/GCP cloud environments
-- **Day 24**: Introduction to SIEM & Log Analysis
+- **[Day 24](<Day24/Day24.md>)**: Introduction to SIEM & Log Analysis
   - Security Information & Event Management (SIEM) basics
   - Hands-on: Using Splunk for log analysis
-- **Day 25**: Cybersecurity Automation & Scripting
+- **[Day 25](<Day25/Day25.md>)**: Cybersecurity Automation & Scripting
   - Using Python for security automation
   - Hands-on: Writing basic security scripts
-- **Day 26**: Red Team vs. Blue Team
+- **[Day 26](<Day26/Day26.md>)**: Red Team vs. Blue Team
   - Roles and responsibilities of Red and Blue Teams
   - Understanding offensive and defensive security strategies
-- **Day 27**: Capture The Flag (CTF) Challenges
+- **[Day 27](<Day27/Day27.md>)**: Capture The Flag (CTF) Challenges
   - Introduction to CTF competitions
   - Hands-on: Solving basic CTF challenges
-- **Day 28**: Mobile Security (Android & iOS)
+- **[Day 28](<Day28/Day28.md>)**: Mobile Security (Android & iOS)
   - Mobile security threats & vulnerabilities
   - Best practices for securing mobile devices
-- **Day 29**: IoT (Internet of Things) Security
+- **[Day 29](<Day29/Day29.md>)**: IoT (Internet of Things) Security
   - Security risks associated with IoT devices
   - Basic IoT security measures
-- **Day 30**: Final Project & Review
+- **[Day 30](<Day30/Day30.md>)**: Final Project & Review
   - Applying learned concepts in a practical project
   - Comprehensive review of the 30-day curriculum

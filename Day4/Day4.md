@@ -110,6 +110,31 @@ These systems monitor network or system activities for malicious policies or pol
     *   **Policy-based:** Detects activities that violate predefined security policies (e.g., protocol usage, traffic between specific zones).
     *   **Heuristic/Behavioral:** Uses rules or statistical methods to identify suspicious behavior patterns that might indicate an attack, even without a specific signature.
 
+# IDS vs. IPS: Advantages and Disadvantages
+
+| Feature         | Intrusion Detection System (IDS)                                  | Intrusion Prevention System (IPS)                                     |
+| :-------------- | :---------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| **Primary Goal**| Monitor, detect, and alert on malicious activity or policy violations. | Monitor, detect, *and actively block/prevent* malicious activity.     |
+| **Placement**   | Typically listens passively on a network segment (e.g., SPAN port) or monitors host logs. Out-of-band. | Sits directly in the flow of network traffic (inline).                |
+| **Action**      | Generates alerts/logs for administrators to review and act upon.  | Automatically blocks or drops malicious traffic based on rules/signatures. |
+| **Advantages**  | 1.  **Lower Impact on Network Performance:** Being out-of-band, it doesn't introduce latency to the main traffic flow. | 1.  **Proactive Protection:** Actively stops attacks in real-time, preventing damage. |
+|                 | 2.  **No Single Point of Failure for Traffic:** If the IDS fails, network traffic continues uninterrupted. | 2.  **Automated Response:** Reduces the need for immediate human intervention for known threats. |
+|                 | 3.  **Lower Risk from False Positives:** Incorrectly identifying legitimate traffic as malicious (false positive) only results in an alert, not blocked traffic. Less disruptive to operations. | 3.  **Enforces Security Policy:** Can actively block traffic that violates defined security policies. |
+|                 | 4.  **Visibility & Forensics:** Excellent for understanding the types of attacks hitting the network and for post-incident analysis. | 4.  **Reduces Analyst Workload (Potentially):** By handling common threats automatically, it can free up security teams (though tuning is crucial). |
+|**Disadvantages**| 1.  **Reactive, Not Preventive:** Only detects and alerts; doesn't stop the attack itself. Requires manual intervention or another system to block. | 1.  **Risk from False Positives:** Incorrectly blocking legitimate traffic (false positive) can disrupt business operations, block users, or take down services. **This is a major concern.** |
+|                 | 2.  **Response Delay:** Time lag between detection, alert, and manual response can allow damage to occur. | 2.  **Impact on Network Performance:** Being inline, it can introduce latency and become a bottleneck if not properly sized and configured. |
+|                 | 3.  **Alert Fatigue:** Can generate a high volume of alerts, potentially overwhelming security staff if not tuned properly. | 3.  **Single Point of Failure:** If the IPS device fails and isn't configured with bypass mechanisms, it can block all network traffic passing through it. |
+|                 | 4.  **Cannot Stop Attack:** By design, it cannot prevent the intrusion from succeeding once detected. | 4.  **Complexity:** Can be more complex to deploy, tune, and manage due to its inline nature and potential impact. |
+|                 | 5.  **Potential for Missed Detections:** Like IPS, can be evaded by sophisticated attackers (false negatives). | 5.  **Potential for Evasion:** Attackers actively develop techniques to bypass IPS detection and blocking. |
+
+**In essence:**
+
+*   **IDS:** Like a security camera system that alerts you to a break-in.
+*   **IPS:** Like a security guard who can physically stop the intruder based on what they see (or what the camera shows).
+
+
+
+
 ## Hands-on: Configuring Windows & Linux Firewalls
 
 This section focuses on the practical configuration of common host-based software firewalls.
