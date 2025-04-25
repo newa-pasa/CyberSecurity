@@ -10,5 +10,17 @@ A Security Operations Center (SOC) is a team or department within an organizatio
 
 ![alt text](image.png)
 
+
+tools for lab and can be used as well
 SOPHOS - firewall 
 PaloAlto -- firewall 
+
+
+Win 11 depns on TPM to protect hhost from attach through virtual machine. setting is found under device curity 
+![alt text](image-1.png)
+
+
+ncpa.cpl -- for netwrork configuration
+
+
+opendns.com --- allows to set rules on dns server to control traffic
