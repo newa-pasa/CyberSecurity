@@ -133,3 +133,22 @@ john --format=raw-md5 test.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
 GDPR --- https://gdpr-info.eu/
 
+GDPR Information
+https://gdpr-info.eu/
+
+ISO Standards
+https://en.wikipedia.org/wiki/List_of_ISO_standards
+https://www.iso.org/standard/27001
+
+PCI DSS Certification
+https://www.imperva.com/learn/data-security/pci-dss-certification/
+
+Cybersecurity Frameworks & Tools
+https://www.nist.gov/cyberframework
+https://attack.mitre.org/
+
+ASCII Drawing Tool
+https://www.asciiart.eu/ascii-draw-studio/app
+
+Fancy Text / Carty Generator
+https://fsymbols.com/generators/carty/

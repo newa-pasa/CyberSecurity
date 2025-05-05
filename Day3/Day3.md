@@ -55,6 +55,7 @@ These models provide frameworks for understanding how data communication happens
       ![OSI Model Diagram](iso-osi.png "7 Layers of the OSI Model")
       <br/>
       *The 7 layers of the OSI reference model.*
+      ![iso-osi-referaance](iso-osi-referaance.png)
 
     </td>
   </tr>
