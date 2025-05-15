@@ -1,6 +1,11 @@
-### I do not own anyof resources and images, this is for educational use
 
 
+# Cybersecurity Training in Nepal - [CODEIT](https://codeit.com.np/cyber-security/cyber-security-training-in-nepal)
+
+### **Instructor:** [hackThacker](https://github.com/hackThacker/) ([Blog](https://hackthacker.blogspot.com))
+
+
+# Course Syllabus
 - **[Day 1](<Day1/Day1.md>)**: Introduction to Cybersecurity
   - What is cybersecurity?
   - Cyber threats & attack types (Malware, Phishing, Ransomware, etc.)
@@ -96,3 +101,6 @@
 - **[Day 30](<Day30/Day30.md>)**: Final Project & Review
   - Applying learned concepts in a practical project
   - Comprehensive review of the 30-day curriculum
+
+
+### I do not own anyof resources and images, These notes are for educational use only.
