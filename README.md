@@ -1,6 +1,6 @@
 
 
-# Cybersecurity Training in Nepal - [CODEIT](https://codeit.com.np/cyber-security/cyber-security-training-in-nepal)
+# Cybersecurity Training in Nepal
 
 ### **Instructor:** [hackThacker](https://github.com/hackThacker/) ([Blog](https://hackthacker.blogspot.com))
 
