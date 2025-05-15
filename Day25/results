@@ -1,0 +1,177 @@
+
+ ------------Nmap ---------- 
+
+Not shown: 984 closed tcp ports (reset)
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   open     ssh
+25/tcp   filtered smtp
+26/tcp   open     rsftp
+53/tcp   open     domain
+80/tcp   open     http
+110/tcp  open     pop3
+143/tcp  open     imap
+443/tcp  open     https
+465/tcp  open     smtps
+587/tcp  open     submission
+993/tcp  open     imaps
+995/tcp  open     pop3s
+2222/tcp open     EtherNetIP-1
+3306/tcp open     mysql
+
+ -------DIRS--------
+
+
+ -------WEB--------
+
+WhatWeb report for [1m[34mhttp://itdeurali.com[0m
+Status    : 301 Moved Permanently
+Title     : [1m[33m301 Moved Permanently[0m
+IP        : 162.241.219.212
+Country   : [1m[31mUNITED STATES, US[0m
+
+Summary   : [1mApache[0m, [1mHTTPServer[0m[[1m[36mApache[0m], [1mRedirectLocation[0m[[0m[22mhttps://itdeurali.com/[0m]
+
+Detected Plugins:
+[ [1mApache[0m ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ [1mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : [1m[36mApache[0m (from server string)
+
+[ [1mRedirectLocation[0m ]
+	HTTP Server string location. used with http-status 301 and 
+	302 
+
+	String       : [1m[36mhttps://itdeurali.com/[0m (from location)
+
+HTTP Headers:
+	HTTP/1.1 301 Moved Permanently
+	Date: Thu, 15 May 2025 15:18:16 GMT
+	Server: Apache
+	Location: https://itdeurali.com/
+	Content-Length: 230
+	Connection: close
+	Content-Type: text/html; charset=iso-8859-1
+	
+WhatWeb report for [1m[34mhttps://itdeurali.com/[0m
+Status    : 200 OK
+Title     : [1m[33mHome[0m
+IP        : 162.241.219.212
+Country   : [1m[31mUNITED STATES, US[0m
+
+Summary   : [1mApache[0m, [1mBootstrap[0m, [1mCodeIgniter-PHP-Framework[0m, [1mCookies[0m[[0m[22mci_session[0m], [1mFrame[0m, [1mGoogle-Analytics[0m[[1m[32mUniversal[0m][[1m[36mUA-51240664-1[0m], [1mHTML5[0m, [1mHTTPServer[0m[[1m[36mApache[0m], [1mJQuery[0m[[1m[32m2.0.3[0m], [1mMeta-Author[0m[[0m[22mITDeurali, IT, Deurali Dilip Kumar Shrestha, Bhim Prsad Ale, Amrit Dahal[0m], [1mScript[0m[[0m[22mapplication/ld+json[0m], [1mUncommonHeaders[0m[[0m[22mupgrade,host-header[0m], [1mX-UA-Compatible[0m[[0m[22mIE=edge[0m]
+
+Detected Plugins:
+[ [1mApache[0m ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ [1mBootstrap[0m ]
+	Bootstrap is an open source toolkit for developing with 
+	HTML, CSS, and JS. 
+
+	Website     : https://getbootstrap.com/
+
+[ [1mCodeIgniter-PHP-Framework[0m ]
+	CodeIgniter PHP Framework 
+
+	Website     : http://codeigniter.com/
+
+[ [1mCookies[0m ]
+	Display the names of cookies in the HTTP headers. The 
+	values are not returned to save on space. 
+
+	String       : [1m[36mci_session[0m
+
+[ [1mFrame[0m ]
+	This plugin detects instances of frame and iframe HTML 
+	elements. 
+
+
+[ [1mGoogle-Analytics[0m ]
+	This plugin identifies the Google Analytics account. 
+
+	Version      : [1m[32mUniversal[0m
+	Account      : [1m[36mUA-51240664-1[0m
+	Website     : http://www.google.com/analytics/
+
+[ [1mHTML5[0m ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ [1mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : [1m[36mApache[0m (from server string)
+
+[ [1mJQuery[0m ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Version      : [1m[32m2.0.3[0m
+	Website     : http://jquery.com/
+
+[ [1mMeta-Author[0m ]
+	This plugin retrieves the author name from the meta name 
+	tag - info: 
+	http://www.webmarketingnow.com/tips/meta-tags-uncovered.html
+	#author
+
+	String       : [1m[36mITDeurali, IT, Deurali Dilip Kumar Shrestha, Bhim Prsad Ale, Amrit Dahal[0m
+
+[ [1mScript[0m ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : [1m[36mapplication/ld+json[0m
+
+[ [1mUncommonHeaders[0m ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : [1m[36mupgrade,host-header[0m (from headers)
+
+[ [1mX-UA-Compatible[0m ]
+	This plugin retrieves the X-UA-Compatible value from the 
+	HTTP header and meta http-equiv tag. - More Info: 
+	http://msdn.microsoft.com/en-us/library/cc817574.aspx 
+
+	String       : [1m[36mIE=edge[0m
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Thu, 15 May 2025 15:18:20 GMT
+	Server: Apache
+	Set-Cookie: ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22f0829e56b2e7cbee1c381a285fc5a485%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%2227.34.72.249%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A13%3A%22WhatWeb%2F0.5.5%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1747322300%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dca737221de3669f67a5cf97bcecd323a; expires=Thu, 15-May-2025 17:18:20 GMT; Max-Age=7200; path=/
+	Upgrade: h2,h2c
+	Connection: Upgrade, close
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+	Content-Length: 4670
+	Content-Type: text/html; charset=UTF-8
+	

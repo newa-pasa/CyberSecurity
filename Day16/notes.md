@@ -136,3 +136,22 @@ Gobuster is a staple in penetration testing and web application security assessm
 *   **Locating Unintended Access Points:** Such as administrative interfaces or test pages.
 
 In short, Gobuster helps security professionals quickly probe for common weaknesses and hidden resources on web servers and related infrastructure.
+
+
+## Process Monitor - https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+*   **What it is:** An advanced real-time monitoring tool for Windows, part of the Sysinternals suite developed by Mark Russinovich (now at Microsoft).
+*   **Functionality:** It shows real-time activity related to:
+    *   **File System:** Creates, reads, writes, deletes of files and directories.
+    *   **Registry:** Reads, writes, deletes of Registry keys and values.
+    *   **Process and Thread Activity:** Process/thread creation, termination, DLL loading, etc.
+*   **Key Features:**
+    *   **Comprehensive Logging:** Captures a vast amount of system event data.
+    *   **Powerful Filtering:** Allows you to include or exclude specific events based on process name, PID, operation type, path, result, user, etc. This is crucial for isolating relevant activity.
+    *   **Non-destructive Filtering:** Filters can be applied without losing the originally captured data.
+    *   **Process Tree:** Shows the relationship between parent and child processes.
+    *   **Detailed Event Properties:** Provides extensive information for each event, including timestamps, user context, session ID, and stack traces (often helpful for developers).
+*   **Use Cases in Security & Troubleshooting:**
+    *   **Malware Analysis:** Observing what files, registry keys, and network connections malware attempts to access or modify.
+    *   **Troubleshooting:** Diagnosing application or system problems (e.g., finding out why an application fails to start by seeing which file or registry key it can't access).
+    *   **Understanding System Behavior:** Seeing exactly what processes are doing behind the scenes.
+    *   **Permission Issues:** Identifying access denied errors for files or registry keys.

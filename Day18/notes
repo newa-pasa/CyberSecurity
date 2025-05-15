@@ -1,0 +1,58 @@
+typenull
+
+exploit db -- https://www.exploit-db.com/
+cscript
+wscript
+vbs - vbscript - scripting language developed by Microsoft
+shock analyst -- Shock analysis is a method used to evaluate how a system or structure will respond to sudden, high-impact loads, like explosions or impacts.
+
+
+## letsencrypt - /var/log/letsencrypt
+The primary Let's Encrypt tool in Linux is called Certbot.   
+
+Certbot is a free, open-source command-line tool that automates the process of obtaining and installing Let's Encrypt SSL/TLS certificates on web servers running on Linux. It also handles the automatic renewal of these certificates.   
+
+Here's a breakdown of what Certbot does and why it's essential for using Let's Encrypt on Linux:
+
+Key Functions of Certbot:
+
+Certificate Acquisition: Certbot communicates with the Let's Encrypt servers using the ACME (Automated Certificate Management Environment) protocol. It proves that you control the domain(s) for which you are requesting a certificate. This verification process can happen in several ways, most commonly:   
+
+HTTP-01 challenge: Certbot places a specific file on your web server that Let's Encrypt can access via HTTP.
+DNS-01 challenge: Certbot instructs you to add a specific TXT record to your domain's DNS records, which Let's Encrypt then checks.   
+ Certificate Installation: Once the domain ownership is verified, Let's Encrypt issues the SSL/TLS certificate. Certbot can then automatically install this certificate on your web server (such as Apache or Nginx), configuring it to use HTTPS.   
+
+Automatic Configuration: Certbot often attempts to automatically configure your web server to use the newly obtained certificate. This might involve modifying your virtual host configurations to enable HTTPS and point to the certificate and private key files.
+
+Certificate Renewal: Let's Encrypt certificates are valid for 90 days. Certbot sets up automatic renewal (usually via systemd timers or cron jobs) to ensure your website's HTTPS remains active without manual intervention. It typically tries to renew certificates that are within 30 days of expiry.   
+
+How to Use Certbot on Linux:
+
+The exact installation and usage of Certbot can vary slightly depending on your Linux distribution and web server. However, the general steps are:
+
+ Installation: You'll typically install Certbot from your distribution's package repositories or by using the Snap package manager (recommended by Certbot). You'll also need to install the specific Certbot plugin for your web server (e.g., certbot python3-certbot-apache for Apache or certbot python3-certbot-nginx for Nginx).   
+
+Obtaining and Installing a Certificate: You'll run the certbot command with specific options, such as:
+
+sudo certbot --apache -d yourdomain.com -d www.yourdomain.com (for Apache)
+sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com (for Nginx)   
+sudo certbot certonly --standalone -d yourdomain.com (to obtain the certificate without automatic installation, using a temporary web server)   
+sudo certbot certonly --webroot -w /var/www/yourdomain -d yourdomain.com (to use an existing web server for the HTTP-01 challenge)
+sudo certbot certonly --manual -d yourdomain.com (for manual configuration using DNS or other challenges)
+ Following Prompts: Certbot will guide you through the process, asking for your email address (for important notifications) and agreeing to the Let's Encrypt terms of service.   
+
+Automatic Renewal Setup: Certbot usually sets up automatic renewal during the installation process. You can test the renewal with the command: sudo certbot renew --dry-run.   
+
+In essence, Certbot is the command-line client that makes interacting with Let's Encrypt on a Linux server easy and automated, handling the complexities of certificate acquisition, installation, and renewal. It's the tool you'll use to enable and maintain HTTPS on your Linux-based websites using free certificates from Let's Encrypt.   
+
+
+
+
+protected directory in windows -- ransomware cant encrypt these directory
+
+
+wordpress site ko lagi tool - nikto , wpscan, ettercap, bettercaper
+the harvester -- sub-domain finder 
+
+
+site hosting - [vershell](https://vercel.com/)
