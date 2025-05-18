@@ -1,10 +1,7 @@
---- a/home/dilip/workspace/EH/CyberSecurity Notes/Day28/Day28.md
- b/home/dilip/workspace/EH/CyberSecurity Notes/Day28/Day28.md
-@@ -1,4 1,90 @@
- # Mobile Security (Android & iOS)
+# Mobile Security (Android & iOS)
  
--- Mobile security threats & vulnerabilities
--- Best practices for securing mobile devices
+- Mobile security threats & vulnerabilities
+- Best practices for securing mobile devices
 
 Mobile devices (smartphones and tablets) have become integral to personal and professional life, making them attractive targets for attackers. Mobile security focuses on protecting these devices and the data they store and transmit. Android and iOS are the dominant mobile operating systems, each with its own architecture and security considerations.
 

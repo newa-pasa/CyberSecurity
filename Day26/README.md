@@ -1,10 +1,7 @@
---- a/home/dilip/workspace/EH/CyberSecurity Notes/Day26/Day26.md
- b/home/dilip/workspace/EH/CyberSecurity Notes/Day26/Day26.md
-@@ -1,4 1,58 @@
- # Red Team vs. Blue Team
+# Red Team vs. Blue Team
  
--- Roles and responsibilities of Red and Blue Teams
--- Understanding offensive and defensive security strategies
+- Roles and responsibilities of Red and Blue Teams
+- Understanding offensive and defensive security strategies
 
 In cybersecurity, "Red Team" and "Blue Team" refer to two groups of security professionals who take on adversarial roles to test and improve an organization's security posture. This approach is often used in simulated attack scenarios called "Red Team Engagements" or "Adversary Emulation."
 

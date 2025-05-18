@@ -1,10 +1,7 @@
---- a/home/dilip/workspace/EH/CyberSecurity Notes/Day30/Day30.md
- b/home/dilip/workspace/EH/CyberSecurity Notes/Day30/Day30.md
-@@ -1,4 1,57 @@
- # Final Project & Review
+# Final Project & Review
  
--- Applying learned concepts in a practical project
--- Comprehensive review of the 30-day curriculum
+- Applying learned concepts in a practical project
+- Comprehensive review of the 30-day curriculum
 
 This final day is dedicated to consolidating the knowledge and skills acquired over the past 29 days through a practical project and a comprehensive review of the entire curriculum. The aim is to apply learned concepts in a simulated real-world scenario and reinforce understanding of key cybersecurity principles.
 

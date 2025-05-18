@@ -1,10 +1,7 @@
---- a/home/dilip/workspace/EH/CyberSecurity Notes/Day29/Day29.md
- b/home/dilip/workspace/EH/CyberSecurity Notes/Day29/Day29.md
-@@ -1,4 1,78 @@
- # IoT (Internet of Things) Security
+# IoT (Internet of Things) Security
  
--- Security risks associated with IoT devices
--- Basic IoT security measures
+- Security risks associated with IoT devices
+- Basic IoT security measures
 
 **IoT (Internet of Things)** refers to the network of physical devices, vehicles, home appliances, and other items embedded with electronics, software, sensors, actuators, and connectivity which enables these objects to connect and exchange data.
 

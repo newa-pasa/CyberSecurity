@@ -1,10 +1,7 @@
---- a/home/dilip/workspace/EH/CyberSecurity Notes/Day27/Day27.md
- b/home/dilip/workspace/EH/CyberSecurity Notes/Day27/Day27.md
-@@ -1,4 1,70 @@
- # Capture The Flag (CTF) Challenges
+# Capture The Flag (CTF) Challenges
  
--- Introduction to CTF competitions
--- Hands-on: Solving basic CTF challenges
+- Introduction to CTF competitions
+- Hands-on: Solving basic CTF challenges
 
 **Capture The Flag (CTF)** competitions are cybersecurity games designed to challenge participants to solve a variety of security-related puzzles and tasks. The goal is typically to find a hidden piece of text or data, known as a "flag," within a vulnerable system or application. CTFs are a popular way to learn and practice cybersecurity skills in a fun, competitive, and legal environment.
 
